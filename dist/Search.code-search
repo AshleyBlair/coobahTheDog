@@ -1,0 +1,374 @@
+# Query: portfolio
+# Flags: WordMatch
+# ContextLines: 1
+
+180 results - 6 files
+
+README.md:
+  2  
+  3: [Agency](https://startbootstrap.com/themes/agency/) is a one page, agency gallery theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive gallery grid, modal windows for each gallery item, and a working PHP based contact form.
+  4  
+
+dist/index.html:
+  192      <!-- Gallery Grid-->
+  193:     <section class="page-section bg-light" id="gallery">
+  194          <div class="container">
+
+  200                  <div class="col-lg-4 col-sm-6 mb-4">
+  201:                     <div class="gallery-item">
+  202:                         <a class="gallery-link" data-toggle="modal" href="#portfolioModal1">
+  203:                             <div class="gallery-hover">
+  204:                                 <div class="gallery-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+  205                              </div>
+  206:                             <img class="img-fluid" src="assets/img/gallery/01-thumbnail.jpg" alt="" />
+  207                          </a>
+  208:                         <div class="gallery-caption">
+  209:                             <div class="gallery-caption-heading">Threads</div>
+  210:                             <div class="gallery-caption-subheading text-muted">Illustration</div>
+  211                          </div>
+
+  214                  <div class="col-lg-4 col-sm-6 mb-4">
+  215:                     <div class="gallery-item">
+  216:                         <a class="gallery-link" data-toggle="modal" href="#portfolioModal2">
+  217:                             <div class="gallery-hover">
+  218:                                 <div class="gallery-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+  219                              </div>
+  220:                             <img class="img-fluid" src="assets/img/gallery/02-thumbnail.jpg" alt="" />
+  221                          </a>
+  222:                         <div class="gallery-caption">
+  223:                             <div class="gallery-caption-heading">Explore</div>
+  224:                             <div class="gallery-caption-subheading text-muted">Graphic Design</div>
+  225                          </div>
+
+  228                  <div class="col-lg-4 col-sm-6 mb-4">
+  229:                     <div class="gallery-item">
+  230:                         <a class="gallery-link" data-toggle="modal" href="#portfolioModal3">
+  231:                             <div class="gallery-hover">
+  232:                                 <div class="gallery-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+  233                              </div>
+  234:                             <img class="img-fluid" src="assets/img/gallery/03-thumbnail.jpg" alt="" />
+  235                          </a>
+  236:                         <div class="gallery-caption">
+  237:                             <div class="gallery-caption-heading">Finish</div>
+  238:                             <div class="gallery-caption-subheading text-muted">Identity</div>
+  239                          </div>
+
+  242                  <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+  243:                     <div class="gallery-item">
+  244:                         <a class="gallery-link" data-toggle="modal" href="#portfolioModal4">
+  245:                             <div class="gallery-hover">
+  246:                                 <div class="gallery-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+  247                              </div>
+  248:                             <img class="img-fluid" src="assets/img/gallery/04-thumbnail.jpg" alt="" />
+  249                          </a>
+  250:                         <div class="gallery-caption">
+  251:                             <div class="gallery-caption-heading">Lines</div>
+  252:                             <div class="gallery-caption-subheading text-muted">Branding</div>
+  253                          </div>
+
+  256                  <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+  257:                     <div class="gallery-item">
+  258:                         <a class="gallery-link" data-toggle="modal" href="#portfolioModal5">
+  259:                             <div class="gallery-hover">
+  260:                                 <div class="gallery-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+  261                              </div>
+  262:                             <img class="img-fluid" src="assets/img/gallery/05-thumbnail.jpg" alt="" />
+  263                          </a>
+  264:                         <div class="gallery-caption">
+  265:                             <div class="gallery-caption-heading">Southwest</div>
+  266:                             <div class="gallery-caption-subheading text-muted">Website Design</div>
+  267                          </div>
+
+  270                  <div class="col-lg-4 col-sm-6">
+  271:                     <div class="gallery-item">
+  272:                         <a class="gallery-link" data-toggle="modal" href="#portfolioModal6">
+  273:                             <div class="gallery-hover">
+  274:                                 <div class="gallery-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+  275                              </div>
+  276:                             <img class="img-fluid" src="assets/img/gallery/06-thumbnail.jpg" alt="" />
+  277                          </a>
+  278:                         <div class="gallery-caption">
+  279:                             <div class="gallery-caption-heading">Window</div>
+  280:                             <div class="gallery-caption-subheading text-muted">Photography</div>
+  281                          </div>
+
+  418      <!-- Modal 1-->
+  419:     <div class="gallery-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  420          <div class="modal-dialog">
+
+  430                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+  431:                                 <img class="img-fluid d-block mx-auto" src="assets/img/gallery/01-full.jpg" alt="" />
+  432                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+
+  452      <!-- Modal 2-->
+  453:     <div class="gallery-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  454          <div class="modal-dialog">
+
+  464                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+  465:                                 <img class="img-fluid d-block mx-auto" src="assets/img/gallery/02-full.jpg" alt="" />
+  466                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+
+  486      <!-- Modal 3-->
+  487:     <div class="gallery-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  488          <div class="modal-dialog">
+
+  498                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+  499:                                 <img class="img-fluid d-block mx-auto" src="assets/img/gallery/03-full.jpg" alt="" />
+  500                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+
+  520      <!-- Modal 4-->
+  521:     <div class="gallery-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  522          <div class="modal-dialog">
+
+  532                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+  533:                                 <img class="img-fluid d-block mx-auto" src="assets/img/gallery/04-full.jpg" alt="" />
+  534                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+
+  554      <!-- Modal 5-->
+  555:     <div class="gallery-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  556          <div class="modal-dialog">
+
+  566                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+  567:                                 <img class="img-fluid d-block mx-auto" src="assets/img/gallery/05-full.jpg" alt="" />
+  568                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+
+  588      <!-- Modal 6-->
+  589:     <div class="gallery-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  590          <div class="modal-dialog">
+
+  600                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+  601:                                 <img class="img-fluid d-block mx-auto" src="assets/img/gallery/06-full.jpg" alt="" />
+  602                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+
+dist/css/styles.css:
+  10181  }
+  10182: #gallery .gallery-item {
+  10183    max-width: 25rem;
+
+  10186  }
+  10187: #gallery .gallery-item .gallery-link {
+  10188    position: relative;
+
+  10191  }
+  10192: #gallery .gallery-item .gallery-link .gallery-hover {
+  10193    display: flex;
+
+  10202  }
+  10203: #gallery .gallery-item .gallery-link .gallery-hover .gallery-hover-content {
+  10204    font-size: 1.25rem;
+
+  10206  }
+  10207: #gallery .gallery-item .gallery-link:hover .gallery-hover {
+  10208    opacity: 1;
+  10209  }
+  10210: #gallery .gallery-item .gallery-caption {
+  10211    padding: 1.5rem;
+
+  10214  }
+  10215: #gallery .gallery-item .gallery-caption .gallery-caption-heading {
+  10216    font-size: 1.5rem;
+
+  10220  }
+  10221: #gallery .gallery-item .gallery-caption .gallery-caption-subheading {
+  10222    font-style: italic;
+
+  10225  
+  10226: .gallery-modal .modal-dialog {
+  10227    margin: 1rem;
+
+  10229  }
+  10230: .gallery-modal .modal-content {
+  10231    padding-top: 6rem;
+
+  10234  }
+  10235: .gallery-modal .modal-content h2 {
+  10236    font-size: 3rem;
+
+  10238  }
+  10239: .gallery-modal .modal-content p.item-intro {
+  10240    font-style: italic;
+
+  10243  }
+  10244: .gallery-modal .modal-content p {
+  10245    margin-bottom: 2rem;
+  10246  }
+  10247: .gallery-modal .modal-content ul.list-inline {
+  10248    margin-bottom: 2rem;
+  10249  }
+  10250: .gallery-modal .modal-content img {
+  10251    margin-bottom: 2rem;
+  10252  }
+  10253: .gallery-modal .close-modal {
+  10254    position: absolute;
+
+  10261  }
+  10262: .gallery-modal .close-modal:hover {
+  10263    opacity: 0.3;
+
+src/pug/index.pug:
+   40                          li.nav-item
+   41:                             a.nav-link.js-scroll-trigger(href='#gallery') Portfolio
+   42                          li.nav-item
+
+   83  
+   84:         // Portfolio Grid
+   85:         section#gallery.page-section.bg-light
+   86              .container
+   87                  .text-center
+   88:                     h2.section-heading.text-uppercase Portfolio
+   89                      h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+
+   91                      .col-lg-4.col-sm-6.mb-4
+   92:                         .gallery-item
+   93:                             a.gallery-link(data-toggle='modal', href='#portfolioModal1')
+   94:                                 .gallery-hover
+   95:                                     .gallery-hover-content
+   96                                          i.fas.fa-plus.fa-3x
+   97:                                 img.img-fluid(src='assets/img/gallery/01-thumbnail.jpg', alt='')
+   98:                             .gallery-caption
+   99:                                 .gallery-caption-heading Threads
+  100:                                 .gallery-caption-subheading.text-muted Illustration
+  101                      .col-lg-4.col-sm-6.mb-4
+  102:                         .gallery-item
+  103:                             a.gallery-link(data-toggle='modal', href='#portfolioModal2')
+  104:                                 .gallery-hover
+  105:                                     .gallery-hover-content
+  106                                          i.fas.fa-plus.fa-3x
+  107:                                 img.img-fluid(src='assets/img/gallery/02-thumbnail.jpg', alt='')
+  108:                             .gallery-caption
+  109:                                 .gallery-caption-heading Explore
+  110:                                 .gallery-caption-subheading.text-muted Graphic Design
+  111                      .col-lg-4.col-sm-6.mb-4
+  112:                         .gallery-item
+  113:                             a.gallery-link(data-toggle='modal', href='#portfolioModal3')
+  114:                                 .gallery-hover
+  115:                                     .gallery-hover-content
+  116                                          i.fas.fa-plus.fa-3x
+  117:                                 img.img-fluid(src='assets/img/gallery/03-thumbnail.jpg', alt='')
+  118:                             .gallery-caption
+  119:                                 .gallery-caption-heading Finish
+  120:                                 .gallery-caption-subheading.text-muted Identity
+  121                      .col-lg-4.col-sm-6.mb-4.mb-lg-0
+  122:                         .gallery-item
+  123:                             a.gallery-link(data-toggle='modal', href='#portfolioModal4')
+  124:                                 .gallery-hover
+  125:                                     .gallery-hover-content
+  126                                          i.fas.fa-plus.fa-3x
+  127:                                 img.img-fluid(src='assets/img/gallery/04-thumbnail.jpg', alt='')
+  128:                             .gallery-caption
+  129:                                 .gallery-caption-heading Lines
+  130:                                 .gallery-caption-subheading.text-muted Branding
+  131                      .col-lg-4.col-sm-6.mb-4.mb-sm-0
+  132:                         .gallery-item
+  133:                             a.gallery-link(data-toggle='modal', href='#portfolioModal5')
+  134:                                 .gallery-hover
+  135:                                     .gallery-hover-content
+  136                                          i.fas.fa-plus.fa-3x
+  137:                                 img.img-fluid(src='assets/img/gallery/05-thumbnail.jpg', alt='')
+  138:                             .gallery-caption
+  139:                                 .gallery-caption-heading Southwest
+  140:                                 .gallery-caption-subheading.text-muted Website Design
+  141                      .col-lg-4.col-sm-6
+  142:                         .gallery-item
+  143:                             a.gallery-link(data-toggle='modal', href='#portfolioModal6')
+  144:                                 .gallery-hover
+  145:                                     .gallery-hover-content
+  146                                          i.fas.fa-plus.fa-3x
+  147:                                 img.img-fluid(src='assets/img/gallery/06-thumbnail.jpg', alt='')
+  148:                             .gallery-caption
+  149:                                 .gallery-caption-heading Window
+  150:                                 .gallery-caption-subheading.text-muted Photography
+  151  
+
+  312  
+  313:         // Portfolio Modals
+  314          // Modal 1
+  315:         #portfolioModal1.gallery-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  316              .modal-dialog
+
+  326                                      p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+  327:                                     img.img-fluid.d-block.mx-auto(src='assets/img/gallery/01-full.jpg', alt='')
+  328                                      p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+  336          // Modal 2
+  337:         #portfolioModal2.gallery-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  338              .modal-dialog
+
+  348                                      p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+  349:                                     img.img-fluid.d-block.mx-auto(src='assets/img/gallery/02-full.jpg', alt='')
+  350                                      p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+  358          // Modal 3
+  359:         #portfolioModal3.gallery-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  360              .modal-dialog
+
+  370                                      p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+  371:                                     img.img-fluid.d-block.mx-auto(src='assets/img/gallery/03-full.jpg', alt='')
+  372                                      p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+  380          // Modal 4
+  381:         #portfolioModal4.gallery-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  382              .modal-dialog
+
+  392                                      p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+  393:                                     img.img-fluid.d-block.mx-auto(src='assets/img/gallery/04-full.jpg', alt='')
+  394                                      p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+  402          // Modal 5
+  403:         #portfolioModal5.gallery-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  404              .modal-dialog
+
+  414                                      p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+  415:                                     img.img-fluid.d-block.mx-auto(src='assets/img/gallery/05-full.jpg', alt='')
+  416                                      p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+  424          // Modal 6
+  425:         #portfolioModal6.gallery-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  426              .modal-dialog
+
+  436                                      p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+  437:                                     img.img-fluid.d-block.mx-auto(src='assets/img/gallery/06-full.jpg', alt='')
+  438                                      p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+src/scss/styles.scss:
+  15  @import "./sections/masthead.scss";
+  16: @import "./sections/gallery.scss";
+  17  @import "./sections/timeline.scss";
+
+src/scss/sections/_portfolio.scss:
+   1: // Styling for the gallery section
+   2: #gallery {
+   3:     .gallery-item {
+   4          max-width: 25rem;
+
+   6          margin-right: auto;
+   7:         .gallery-link {
+   8              position: relative;
+
+  10              margin: 0 auto;
+  11:             .gallery-hover {
+  12                  display: flex;
+
+  20                  transition: opacity ease-in-out 0.25s;
+  21:                 .gallery-hover-content {
+  22                      font-size: 1.25rem;
+
+  26              &:hover {
+  27:                 .gallery-hover {
+  28                      opacity: 1;
+
+  31          }
+  32:         .gallery-caption {
+  33              padding: 1.5rem;
+
+  35              background-color: $white;
+  36:             .gallery-caption-heading {
+  37                  font-size: 1.5rem;
+
+  41              }
+  42:             .gallery-caption-subheading {
+  43                  font-style: italic;
+
+  49  
+  50: .gallery-modal {
+  51      .modal-dialog {

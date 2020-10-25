@@ -10139,12 +10139,13 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
+  color: rgb(247, 241, 241);
   background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  opacity: 100%;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10450,6 +10451,7 @@ section#contact {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 section#contact .section-heading {
   color: #fff;
 }
