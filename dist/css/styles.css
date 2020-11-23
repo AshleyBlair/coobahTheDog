@@ -10089,7 +10089,7 @@ img::-moz-selection {
 
 }
 #mainNav .navbar-brand img {
-  height: 4rem;
+  height: 6rem;
   justify-content: flex-start;
   align-items: flex-start;
 }
